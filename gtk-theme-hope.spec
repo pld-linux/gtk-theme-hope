@@ -10,6 +10,7 @@ Source0:	http://www.deviantart.com/download/206207315/hope_gtk3_by_grvrulz-d3erq
 # Source0-md5:	c3bbd2c431e85ab684b024468f5a823c
 URL:		http://grvrulz.deviantart.com/art/Hope-gtk3-206207315
 BuildRequires:	p7zip
+Requires:	gtk2-theme-engine-murrine
 Requires:	gtk3-theme-engine-unico
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
